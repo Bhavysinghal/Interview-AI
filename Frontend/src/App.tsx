@@ -1,8 +1,9 @@
-import React from 'react'
+import { RouterProvider } from "react-router"
+import {router} from "./app.routes.tsx"
 
 const App = () => {
   return (
-    <div>App</div>
+    <RouterProvider router={router}/>
   )
 }
 
